@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from 'react'
-import GithubIcon from "../../../public/github-icon.svg"
-import LinkedinIcon from "../../../public/linkedin-icon.svg"
+import GithubIcon from "../../../public/icons-github.png"
+//import LinkedinIcon from "../../../public/linkedin-icon.svg"
+import WhatsappIcon from "../../../public/icons-whatsapp.png"
+import GmailIcon from "../../../public/gmail-icon.png"
 import Link from "next/link"
 import Image from "next/image"
 import emailjs from '@emailjs/browser'
@@ -61,12 +63,31 @@ function sendEmail(e){
       </p>
       
       <div className='socials flex flex-row gap-2'>
-        <Link href="github.com">
+
+        <Link href="https://github.com/thinobrega">
           <Image src={GithubIcon} alt='Github Icon'/>
         </Link>
-        <Link href="linkedin.com">
-          <Image src={LinkedinIcon} alt='Linkedin Icon'/>
+        <Link href="https://github.com/thinobrega">
         </Link>
+
+       {/*  <Link href="linkedin.com">
+          <Image src={LinkedinIcon} alt='Linkedin Icon'/>       
+        </Link>
+        <Link href="linkedin.com">
+        </Link>
+*/}
+        <Link href="https://api.whatsapp.com/send?phone=5585999037775">
+          <Image src={WhatsappIcon} alt='Whatsapp Icon'/>       
+        </Link>
+        <Link href="https://api.whatsapp.com/send?phone=5585999037775">
+        </Link>
+
+        <Link href="mailto:thibeno2020@gmail.com">
+          <Image src={GmailIcon} alt='Gmail Icon'/>       
+        </Link>
+        <Link href="mailto:thibeno2020@gmail.com">
+        </Link>
+
 
 
       </div>
