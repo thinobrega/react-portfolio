@@ -64,10 +64,10 @@ function sendEmail(e){
       
       <div className='socials flex flex-row gap-2'>
 
-        <Link href="https://github.com/thinobrega">
+        <Link href="https://github.com/thinobrega" target='blank'>
           <Image src={GithubIcon} alt='Github Icon'/>
         </Link>
-        <Link href="https://github.com/thinobrega">
+        <Link href="https://github.com/thinobrega" target='blank'>
         </Link>
 
        {/*  <Link href="linkedin.com">
@@ -76,16 +76,16 @@ function sendEmail(e){
         <Link href="linkedin.com">
         </Link>
 */}
-        <Link href="https://api.whatsapp.com/send?phone=5585999037775">
+        <Link href="https://api.whatsapp.com/send?phone=5585999037775" target='blank'>
           <Image src={WhatsappIcon} alt='Whatsapp Icon'/>       
         </Link>
-        <Link href="https://api.whatsapp.com/send?phone=5585999037775">
+        <Link href="https://api.whatsapp.com/send?phone=5585999037775" target='blank'>
         </Link>
 
-        <Link href="mailto:thibeno2020@gmail.com">
+        <Link href="mailto:thibeno2020@gmail.com" target='blank'>
           <Image src={GmailIcon} alt='Gmail Icon'/>       
         </Link>
-        <Link href="mailto:thibeno2020@gmail.com">
+        <Link href="mailto:thibeno2020@gmail.com" target='blank'>
         </Link>
 
 
