@@ -31,7 +31,7 @@ function sendEmail(e){
 
     }
 
-     emailjs.send("service_beyzulw", "template_qt3u7n8", templateParams, "bEPzEnx8wWsJGIhGI")
+     emailjs.send("service_y0tqy84", "template_dv2tfys", templateParams, "bEPzEnx8wWsJGIhGI")
      .then((response) => {
       console.log("email sent !", response.status, response.text)
       setEmail('')
