@@ -157,11 +157,11 @@ function sendEmail(e){
             value={message}
             />
           </div>
-          <button 
-          type='submit'
-          className='bg-blue-500 hover:bg-blue-600 text-white font-medium py-2.5 rounded-lg w-full'>
+         
+              <br/>
+            <button type='submit' className='w-full bg-gradient-to-r from-blue-900 via-purple-600 to-cyan-300 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]'>
             Send Message
-            </button>
+          </button>
            
            
           </form>

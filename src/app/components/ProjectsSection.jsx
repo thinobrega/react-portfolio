@@ -17,11 +17,11 @@ const projectsData = [
   {
     id: 2,
     title: "Portfolio",
-    description: "React (2023)",
-    image: "images/projects/11.png",
+    description: "React, Tailwindcss, Vite (2025)",
+    image: "images/projects/99.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/thinobrega/blueportfolio",
+    previewUrl: "https://blueportfolio-eosin.vercel.app/",
   },
   {
     id: 3,
