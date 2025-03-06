@@ -25,13 +25,14 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Portfolio",
-    description: "React & Tailwindcss v.4 (2025)",
-    image: "images/projects/3.png",
+    title: "React Form",
+    description: "Form – React, Tailwind, shadcn, typescript, zod (2025)",
+    image: "images/projects/88.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/thinobrega/reactform",
+    previewUrl: "https://reactform-six.vercel.app/",
   },
+ 
   {
     id: 4,
     title: "Fitness Pro",
