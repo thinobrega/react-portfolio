@@ -23,7 +23,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Jovem Programador -  Senac, SC</li>
+        <li>Computer Programmer Analyst</li>
+        <li>Análise e Desenvolvimento de Sistemas</li>
+
         
       </ul>
     ),
