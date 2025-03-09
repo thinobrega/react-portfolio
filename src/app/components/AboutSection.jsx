@@ -14,7 +14,8 @@ const TAB_DATA = [
         <li>MySql</li>
         <li>TailwindCSS</li>
         <li>React</li>
-        <li>Node JS</li>
+        <li>React Native</li>
+       
       </ul>
     ),
   },
